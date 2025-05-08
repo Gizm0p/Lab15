@@ -1,0 +1,19 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    margin-top: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }

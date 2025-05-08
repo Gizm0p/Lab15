@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1px 3fr 1px 1fr;
+    grid-template-areas: "section divider-left article divider-right aside";
+    flex-grow: 1;
+    padding: 1rem 0;
+  }
+  
+  .divider-left, .divider-right {
+    background-color: #ccc;
+    height: 100%;
+  }

@@ -1,0 +1,11 @@
+.section {
+    grid-area: section;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }

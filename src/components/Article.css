@@ -1,0 +1,16 @@
+.article {
+    grid-area: article;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  
+  .article h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .article p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
